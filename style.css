@@ -12,6 +12,10 @@ body{
     font-size: 16px;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     margin-bottom: 25px;
 }
@@ -166,6 +170,30 @@ header{
     width: 30%;
 }
 
+.clear{
+    clear: both;
+}
+
+#googleSpreadshit{
+    background: rgba(31, 71, 136, 0.9);
+    color: #eee;
+    padding: 5px 20px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    font-size: calc(16px + 0.5vw);
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto 20px auto;
+}
+
+#googleSpreadshit:hover{
+    background: rgba(240, 240, 240, 0.9);
+    color: rgb(31, 71, 136);
+    border: 2px solid rgb(31, 71, 136);
+    border-radius: 5px;
+    font-size: calc(16px + 0.5vw);
+}
 
 
 @media (max-width: 678px){
